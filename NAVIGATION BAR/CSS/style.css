@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+body{
+    background-color: rgb(110, 169, 187);
+    background-position: center;
+    background-image: url("/image/india\ logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+nav{
+    width:100%;
+    height: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(25, 27, 27);
+    padding-bottom: 15px;
+}
+nav .list a{
+    text-decoration: none;
+    padding: 15px 10px 5px 40px ;
+    display: inline-flex;
+    color: white;
+}
+nav .list{
+    list-style: none;
+    display: inline-flex;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav .btn button{
+    background-color: rgba(20, 156, 88, 0.856);
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    font-size:15px;
+    padding: 6px 6px;
+    text-align: center;
+    color: white;
+}
+nav .btn{
+    padding-top: 15px;
+    padding-right: 10px;
+}
+nav .cg h1{
+    padding-left: 15px;
+    padding-top: 10px;
+    color: white;
+}
+.list li a:hover{
+          color: chartreuse;
+}
+h2{
+    color:rgb(20, 19, 19);
+   
+}
+h3{
+    color:blue;
+}
+ ol ul li{
+    color: blue;
+    text-align: center;
+}
+ol li{
+    color: red;
+    text-align: center;
+    padding-right: 15px;
+
+}
+.h1 {
+    color: black;
+    text-align: center;
+
+}
+.abc{
+    margin-top: 50px;
+    font-size: large;
+}
+.abc h2{
+    padding-bottom: 20px;
+}
+.ns h1{
+    color: blue;
+}
+
+
+
